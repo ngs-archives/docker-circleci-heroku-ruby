@@ -6,3 +6,5 @@ RUN sudo sh -c 'wget https://cli-assets.heroku.com/branches/stable/heroku-linux-
   tar -xvzf heroku.tar.gz -C /usr/local/lib && \
   rm -f heroku.tar.gz && \
   /usr/local/lib/heroku/install'
+
+RUN sudo npm install -g yarn
